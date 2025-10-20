@@ -1,7 +1,23 @@
 @import "tailwindcss";
 
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #c4c4c4;
+  --cor-fundo: #f5f5f5;
+  --cor-texto: #171717;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.hero-box1 {
+  clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%, 0 38%);
+}
+.header-box {
+  clip-path: polygon(0 0, 100% 0, 73% 100%, 0% 100%, 0 38%);
+}
+.hero-box2 {
+  background-color: white;
 }
